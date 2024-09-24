@@ -17,3 +17,62 @@
 
   100%
     transform: translateY(0px)
+
+.tit-tercer
+  position: relative
+  img
+    z-index: 5
+    position: relative
+  .texto
+    position: relative  
+    background-color: #F9F0B1
+    margin-left: -10px
+    z-index: 2
+    h3
+      padding: 6px 0px 6px 25px
+    &:before 
+      position: absolute
+      content: ''
+      background-color: #F9F0B1
+      right: -4px
+      transform: translate(35%,-50%) rotate(45deg)
+      display: block
+      top: 50%
+      width: 26px
+      height: 26px
+      z-index: -1
+
+.bg1
+  background-color: #EAEFCE
+
+.bg2
+  background-color: #EBF6FC 
+.bg3
+  background-color: #B5DEF3
+
+.bg4
+  background-color: #D3DF9C
+
+
+.bgc-6
+  background-image: url("../assets/curso/temas/t1/bgc1.png")
+  background-position: center bottom
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  border-radius: 30px
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+
+
+.acord1  
+  .acordion__accion__btn--a
+    background-color: #FFA700
+    i
+      color: #FFF !important
+  .acordion__activo
+    background-color: #DAEEF9

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 El turismo sostenible y competitivo requiere de una adecuada organización de sus elementos clave para garantizar un desarrollo equilibrado y beneficioso tanto para las comunidades locales como para los visitantes. El sistema turístico se compone de diversos actores y estructuras que, en conjunto, permiten la oferta de servicios turísticos de calidad. Estas estructuras deben estar alineadas con las normativas y políticas vigentes, así como con los principios de sostenibilidad, para lograr un equilibrio entre el desarrollo económico, social y ambiental en los destinos turísticos, por tal razón exponemos la siguiente síntesis con la cual te puedes apoyar.
 
     .row.justify-content-center
       .col-lg-10.mb-5
