@@ -1,22 +1,84 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: opacity1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 28%
+    right: 82%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: opacity1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
-
-@keyframes float1
+    top: 2%
+    right: 55%
+  &-3
+    animation: opacity1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 38%
+    right: 22%
+@keyframes opacity1
   0%
-    transform: translateY(20px)
-
+    opacity: 0.5  
   100%
-    transform: translateY(0px)
+    opacity: 1
+
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/mini-portada.jpg") !important
+  background-repeat: no-repeat
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem  
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario 
+.lista-ul--color.color-new li > i:first-of-type  
+  color: #667B07
+.lista-ul--color.color-new2 li > i:first-of-type  
+  color: #245670
+
+.bgc-1
+  background-image: url("../assets/curso/temas/t1/bgc1.png")
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  border-radius: 30px
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgc-2
+  background-image: url("../assets/curso/temas/t1/bgc2.png")
+  background-position: center
+  background-size: 100% 60%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  border-radius: 30px
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bg1
+  background-color: #EAEFCE
+.bg2
+  background-color: #EBF6FC 
+.bg3
+  background-color: #B5DEF3
+.bg4
+  background-color: #D3DF9C
+.bg5
+  background-color: #C7EFF5 !important
+.bg6
+  background-color:#DAF2E4
 
 .tit-tercer
   position: relative
@@ -42,31 +104,9 @@
       height: 26px
       z-index: -1
 
-.bg1
-  background-color: #EAEFCE
-
-.bg2
-  background-color: #EBF6FC 
-.bg3
-  background-color: #B5DEF3
-
-.bg4
-  background-color: #D3DF9C
-
-
-.bgc-6
-  background-image: url("../assets/curso/temas/t1/bgc1.png")
-  background-position: center bottom
-  background-size: 100% 80%
-  background-repeat: no-repeat
-  margin-inline: -3.4rem
-  border-radius: 30px
-  @media screen and (max-width: 992px)
-    margin-inline: -3rem  
-    background-size: cover 
-  @media screen and (max-width: 767px)
-    margin-inline: -1.4rem  
-    background-size: cover 
+.border-b
+  border-bottom-left-radius: 23px
+  border-bottom-right-radius: 23px
 
 
 .acord1  
@@ -76,3 +116,60 @@
       color: #FFF !important
   .acordion__activo
     background-color: #DAEEF9
+
+.tarjeta-t1
+  display: flex
+  flex-direction: column
+  align-items: center
+  position: relative
+  min-height: 117px
+  .num
+    position: absolute
+    top: -35px
+    width: 60px
+    height: 60px
+    background-color: #F37E29
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 100%
+    border: 6px solid #6499B5
+    box-shadow: 0px 0px 0px 4px #98BBCE
+    span
+      font-size: 32px
+      font-weight: bold
+.tarjeta-t4
+  display: flex
+  flex-direction: column
+  align-items: center
+  position: relative
+  transition: all 0.3s ease-out
+  .num
+    width: 89px
+    height: 89px
+    background-color: #FFF
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 100%
+    span
+      font-size: 45px
+      color: #495705
+      font-weight: bold
+  h4
+    background-color: #FFF
+    width: fit-content
+    padding: 0px 8px
+  &:hover
+    background-color: #D3DF9C
+    transition: all 0.3s ease-out
+
+ol.text-color span
+  color: $color-sistema-texto
+  font-weight: bold
+
+h3.text-conect
+  color: #FFF    
+  background-color: #A8571C
+  width: fit-content
+  padding: 0px 8px

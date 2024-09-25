@@ -1,72 +1,33 @@
 <template lang="pug">
-.curso-main-container.pb-3
-  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    #Actividad                
-      <Actividad :cuestionario="cuestionario" />
-
-</template>
+  .curso-main-container.pb-3
+    BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+      
+      .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+        .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+          .tarjeta.h-100.d-flex.align-items-center.p-4
+            figure
+              img(src="@/assets/template/Falso_Verdadero.svg", alt="")
+        .col-12.col-md-8.col-lg-9
+          .titulo-segundo.color-acento-contenido
+            h2 Identificar aspectos clave en la competitividad y la gestión turística
+          p.mb-4 Validar el conocimiento adquirido sobre la competitividad y la gestión turística.
+          .tarjeta.actividad.p-3
+            .row.justify-content-around.align-items-center            
+              .col-sm.mb-3.mb-sm-0
+                p.fw-bold.mb-0 Cuestionario
+              .col-auto
+                a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
+                  span Realizar
+                  i.fas.fa-puzzle-piece
+                  
+  
+  </template>
 
 <script>
-import Actividad from '@/components/actividad/Actividad'
 export default {
-  name: 'ActividadDidactica',
-  components: { Actividad },
-  data: () => ({
-    cuestionario: {
-      tema: 'Nombre del componente formativo',
-      titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
-      barajarPreguntas: false,
-      preguntas: [
-        {
-          id: 1,
-          texto: 'Texto pregunta 1 con <strong>Negrita</strong> <em>Itálica</.',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Opción 1', esCorrecta: true },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Opción 4', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 2,
-          texto: 'Texto pregunta 2',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: 'Texto pregunta 3',
-          imagen: require('@/assets/componentes/pregunta_3.png'),
-          barajarRespuestas: false,
-          opciones: [
-            { id: 'a', texto: 'Opción 1', esCorrecta: true },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Todas las anteriores', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-  }),
-  computed: {},
-  methods: {},
+  name: 'Actividad',
 }
 </script>
+
+<style lang="sass"></style>
