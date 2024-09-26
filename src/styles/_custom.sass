@@ -83,7 +83,19 @@
 .bgc-4
   background-image: url("../assets/curso/temas/t5/bgc4.png")
   background-position: center
-  background-size: 100% 60%
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgc-5
+  background-image: url("../assets/curso/temas/t5/bg-slider.png")
+  background-position: center
+  background-size: 100% 100%
   background-repeat: no-repeat
   margin-inline: -3.4rem
   border-radius: 30px
@@ -111,7 +123,6 @@
   background-color: #FDFCEF
 
 
-
 .tit-tercer
   position: relative
   img
@@ -135,11 +146,15 @@
       width: 26px
       height: 26px
       z-index: -1
+.pregunta
+  background-color: #FFA869
+  border-radius: 11px
+  h2
+    text-align: center
 
 .border-b
   border-bottom-left-radius: 23px
   border-bottom-right-radius: 23px
-
 
 .acord1  
   .acordion__accion__btn--a
@@ -148,6 +163,22 @@
       color: #FFF !important
   .acordion__activo
     background-color: #DAEEF9
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #FFA700
+  opacity: 0.9
+  border-color: #FFA700
+.slyder-a__bullets__item
+  background-color: #F6CDAE
+  border-color: #F6CDAE
+.slyder-a__bullets__item--active
+  background-color: #F37E29
+  border-color: #F37E29
+.tarjeta--slider
+  background-color: rgba(255, 255, 255, 0.95)
+.tabs-c__tab--active span
+  font-weight: bold
+.tabs-c__header
+  margin-bottom: 0px
 
 .tarjeta-t1
   display: flex
@@ -199,9 +230,80 @@
 ol.text-color span
   color: $color-sistema-texto
   font-weight: bold
-
 h3.text-conect
   color: #FFF    
   background-color: #A8571C
   width: fit-content
   padding: 0px 8px
+
+// TARJETA HOVER TEMA 2-2    
+.nav-holder2
+  display: inline-block
+  overflow: hidden
+  position: relative
+  border-radius: 25px
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+.nav-holder2:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #2D4E78
+  opacity: 1
+  z-index: 888
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
+  transition: all 0.45s ease
+  -webkit-transform: translateY(80%)
+  -moz-transform: translateY(80%)
+  transform: translateY(80%)
+.nav-holder2:hover:before
+  -webkit-transform: translateY(40%)
+  -moz-transform: translateY(40%)
+  transform: translateY(40%)
+  opacity: 1
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+  background-color: #B5DEF3
+.nav-holder2
+  .text
+    position: absolute
+    top: 70%
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+    bottom: 0
+    padding: 1em
+  img
+    backface-visibility: hidden
+    max-width: 100%
+    vertical-align: top
+    z-index: 0
+  p
+    margin: 0
+    opacity: 0
+    line-height: 1.2em
+.nav-holder2 h4
+  margin: 0
+  opacity: 1
+  color: #FFF
+.nav-holder2:hover
+  .text
+    top: 30%
+  h4, p
+    opacity: 1
+    color: $color-sistema-texto

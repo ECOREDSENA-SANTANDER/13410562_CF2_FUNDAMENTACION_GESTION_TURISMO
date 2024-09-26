@@ -7,7 +7,7 @@
         span 3
       h1 Sostenibilidad
     
-    p.mb-4 Cuando el concepto de sostenibilidad se relaciona con la acción del ser humano sobre su entorno, se refiere al equilibrio necesario entre ambos, de modo que los factores y recursos disponibles permitan un funcionamiento armónico. Esto debe lograrse sin comprometer la capacidad del entorno para sostener la existencia y el desarrollo integral de las futuras generaciones.
+    p.mb-5 Cuando el concepto de sostenibilidad se relaciona con la acción del ser humano sobre su entorno, se refiere al equilibrio necesario entre ambos, de modo que los factores y recursos disponibles permitan un funcionamiento armónico. Esto debe lograrse sin comprometer la capacidad del entorno para sostener la existencia y el desarrollo integral de las futuras generaciones.
 
     .tit-tercer.row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.pe-0
@@ -28,15 +28,18 @@
       .col-lg-5.ps-lg-0.d-none.d-lg-block
         img(src='@/assets/curso/temas/t3/img2.png', alt='') 
     
-    .titulo-sexto.color-primario
-      h5 Figura 5. 
-      span Turismo sustentable
-
-    .row.justify-content-center.align-items-center.bgc-3.mb-5
-      .col-lg-8
-        img.mb-3(src='@/assets/curso/temas/t3/figura5.svg', alt='La imagen presenta un modelo circular titulado “Turismo Sustentable”, dividido en tres dimensiones clave: económica, ambiental y sociocultural. Cada una de estas dimensiones contiene varios elementos que contribuyen al turismo sostenible. En la dimensión económica, se destacan factores como la viabilidad económica, calidad del empleo y prosperidad local. La dimensión ambiental incluye la gestión del territorio, del agua, energía, residuos, conservación de la biodiversidad y la medición de huella de carbono. Por su parte, la dimensión sociocultural abarca aspectos como la protección del patrimonio, oferta cultural y bienestar de la comunidad local.')
-        figcaption Fuente: Rueda del turismo sostenible - Consejo Global del turismo Sostenible, apoyado por la Organización Mundial del Turismo
+    .row.bgc-1.align-items-center.p-4.py-4(data-aos="fade-down")
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.justify-content-center
+          .col-lg-12  
+            .titulo-sexto.color-primario              
+              h5 Figura 5. 
+              span Turismo sustentable
+          .col-lg-7
+            img.mb-3(src='@/assets/curso/temas/t3/figura5.svg', alt='La imagen presenta un modelo circular titulado “Turismo Sustentable”, dividido en tres dimensiones clave: económica, ambiental y sociocultural. Cada una de estas dimensiones contiene varios elementos que contribuyen al turismo sostenible. En la dimensión económica, se destacan factores como la viabilidad económica, calidad del empleo y prosperidad local. La dimensión ambiental incluye la gestión del territorio, del agua, energía, residuos, conservación de la biodiversidad y la medición de huella de carbono. Por su parte, la dimensión sociocultural abarca aspectos como la protección del patrimonio, oferta cultural y bienestar de la comunidad local.')
+            figcaption Fuente: Rueda del turismo sostenible - Consejo Global del turismo Sostenible, apoyado por la Organización Mundial del Turismo
     
+
     Separador
     #t_3_1.titulo-segundo.color-primario(data-aos='fade-right')
       h2 3.1  La sostenibilidad y la competitividad
@@ -66,10 +69,10 @@
               .tarjeta.bg4.p-4.p-lg-5
                 p.text-center #[b d) Sostenibilidad económica:] que asegure el nivel de ganancia económica que requiere el sector, para que sea viable.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .cajon.color-primario.bg5.p-4
-          p.mb-0 La sostenibilidad en el turismo implica equilibrar los aspectos ambientales, económicos y sociales, promoviendo el desarrollo económico sin dañar los valores sociales ni el entorno natural, y evitando prácticas como la depredación de especies, el mal manejo de residuos y la explotación sexual. La gestión turística sostenible es una herramienta dinámica que coordina y regula actividades para mantener ese equilibrio, actuando con un enfoque sistémico basado en experiencias pasadas y resultados globales. Requiere una toma de decisiones formal y eficaz, que garantice la ejecución, coordinación, evaluación y control de las acciones, adaptándose continuamente a los intereses locales y las dimensiones del desarrollo sostenible.
+    .cajon.color-primario.bg5.p-4(data-aos="fade-down")
+      p.mb-0 La sostenibilidad en el turismo implica equilibrar los aspectos ambientales, económicos y sociales, promoviendo el desarrollo económico sin dañar los valores sociales ni el entorno natural, y evitando prácticas como la depredación de especies, el mal manejo de residuos y la explotación sexual. La gestión turística sostenible es una herramienta dinámica que coordina y regula actividades para mantener ese equilibrio, actuando con un enfoque sistémico basado en experiencias pasadas y resultados globales. Requiere una toma de decisiones formal y eficaz, que garantice la ejecución, coordinación, evaluación y control de las acciones, adaptándose continuamente a los intereses locales y las dimensiones del desarrollo sostenible.
+
+
 
 </template>
 
