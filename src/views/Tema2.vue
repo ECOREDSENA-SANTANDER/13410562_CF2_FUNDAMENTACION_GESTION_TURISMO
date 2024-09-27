@@ -77,7 +77,7 @@
     p.mb-4 Las ventajas competitivas de un destino turístico pueden clasificarse en dos tipos: estructurales y funcionales:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-4.col-md-9.mb-3.mb-md-0
+      .col-lg-4.col-md-8.col-11.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0
             figure
@@ -86,7 +86,7 @@
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                 h4.mt-4.mb-3 a. Las ventajas estructurales
                 p Se refieren a la proximidad geográfica del destino a los mercados emisores, considerando la relación tiempo-costo para llegar. Estas ventajas otorgan poder competitivo a los destinos cercanos a sus principales mercados.
-      .col-lg-4.col-md-9.mb-3.mb-md-0
+      .col-lg-4.col-md-8.col-11.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0(@mouseover="mostrarIndicador2 = false")
             .indicador--hover(v-if="mostrarIndicador2")
@@ -105,7 +105,7 @@
         h3.mb-0 Los factores que inciden en la competitividad de un destino turístico
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-4.col-md-9.mb-3.mb-md-0
+      .col-lg-4.col-md-8.col-11.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0
             figure
@@ -114,7 +114,7 @@
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                 h4.mt-4.mb-3 a. Factores tangibles
                 p Destacan la atractividad del destino, influenciada por la percepción de los turistas sobre los atractivos y la distancia del destino, así como la adecuación de los productos, servicios y precios a los diferentes segmentos de mercado.
-      .col-lg-4.col-md-9.mb-3.mb-md-0
+      .col-lg-4.col-md-8.col-11.mb-3.mb-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
@@ -171,8 +171,8 @@
       .col-auto.ps-0.texto
         h3.mb-0 Principios de la competencia
 
-    .row.mb-5
-      .col-lg-4(data-aos="fade-right")
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-md-6.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/img6.png', alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-3 Para obtener una ventaja sobre las empresas competidoras, es fundamental anticipar y desarrollar estrategias sólidas, y luego analizar sus resultados en el mercado. Las empresas recuperarán o ganarán ventajas competitivas mediante un equilibrio basado en su comportamiento frente a los competidores.
@@ -193,15 +193,15 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-evenly
           
-          .col-lg-3.col-md-6.mb-3
+          .col-lg-3.col-md-4.col-8.mb-3
             img(src='@/assets/curso/temas/t2/preg1.png', alt='')
             .pregunta
               h2.mb-0.p-2 ¿Qué mercado dominan?
-          .col-lg-3.col-md-6.mb-3
+          .col-lg-3.col-md-4.col-8.mb-3
             img(src='@/assets/curso/temas/t2/preg2.png', alt='')
             .pregunta
               h2.mb-0.p-2.px-lg-5 ¿Cómo evolucionan?
-          .col-lg-3.col-md-6.mb-3
+          .col-lg-3.col-md-4.col-8.mb-3
             img(src='@/assets/curso/temas/t2/preg3.png', alt='')
             .pregunta
               h2.mb-0.p-2 ¿Qué ventajas competitivas tienen?

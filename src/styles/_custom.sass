@@ -41,6 +41,12 @@
 .lista-ul--color.color-new2 li > i:first-of-type  
   color: #245670
 
+@media (max-width: $bp-max-xs)
+  .banner-principal .tarjeta
+    min-height: 470px
+  .slyder-a__bullets__item
+    margin: 0 4px
+
 .bgc-1
   background-image: url("../assets/curso/temas/t1/bgc1.png")
   background-position: center
@@ -307,3 +313,12 @@ h3.text-conect
   h4, p
     opacity: 1
     color: $color-sistema-texto
+@media (max-width: $bp-max-xs)    
+  .nav-holder2 .text
+    top: 75%
+  .nav-holder2:hover .text 
+    top: 24%
+  .nav-holder2:hover:before
+    -webkit-transform: translateY(30%)
+    -moz-transform: translateY(30%)
+    transform: translateY(30%)

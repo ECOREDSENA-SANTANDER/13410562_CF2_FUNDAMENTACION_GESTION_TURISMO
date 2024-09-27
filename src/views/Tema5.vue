@@ -28,8 +28,8 @@
     #t_5_1.titulo-segundo.color-primario(data-aos='fade-right')
       h2 5.1  Proveedores turísticos 
     
-    .row.mb-5
-      .col-lg-4(data-aos="fade-right")
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-md-6.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t5/img3.png', alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-4 Los proveedores de servicios turísticos abarcan desde grandes grupos empresariales e instituciones estatales hasta particulares, ofreciendo una amplia gama de servicios para satisfacer las necesidades de turistas locales, nacionales e internacionales. Estos proveedores no solo se enfocan en la calidad de los servicios ofrecidos, sino que también implementan estrategias de marketing y sostenibilidad para mantenerse competitivos en los mercados, identificando oportunidades en diversos segmentos productivos y adaptándose a las demandas cambiantes del turismo.
@@ -65,43 +65,43 @@
                 .col-md-6.mb-4.mb-md-0
                   h4 Involucramiento
                   p El desarrollo de proveedores, especialmente pequeñas y medianas empresas, requiere que las grandes empresas se comprometan activamente, creando las condiciones necesarias para su crecimiento.
-                .col-md-4
+                .col-md-5.col-lg-4
                   img(src='@/assets/curso/temas/t5/slyder1.png', alt='')
               .row.justify-content-evenly
                 .col-md-6.mb-4.mb-md-0
                   h4 Ganar dinero
                   p Este modelo se justifica porque ambas partes obtienen beneficios. El desarrollo de proveedores no debe basarse en solidaridad o filantropía, sino en la optimización de la ecuación económica del negocio.
-                .col-md-4
+                .col-md-5.col-lg-4
                   img(src='@/assets/curso/temas/t5/slyder2.png', alt='')
               .row.justify-content-evenly
                 .col-md-6.mb-4.mb-md-0
                   h4 Modificar los términos de intercambio
                   p Los términos de negociación deben evolucionar hacia nuevos paradigmas de relación, fomentando una cultura corporativa colaborativa entre ambas partes.
-                .col-md-4
+                .col-md-5.col-lg-4
                   img(src='@/assets/curso/temas/t5/slyder3.png', alt='')
               .row.justify-content-evenly
                 .col-md-6.mb-4.mb-md-0
                   h4 Impacto local
                   p El modelo está directamente vinculado al desarrollo local, mejorando las condiciones de las comunidades que albergan a las empresas proveedoras.
-                .col-md-4
+                .col-md-5.col-lg-4
                   img(src='@/assets/curso/temas/t5/slyder4.png', alt='')
               .row.justify-content-evenly
                 .col-md-6.mb-4.mb-md-0
                   h4 Impacto en la cadena de valor
                   p La competitividad del negocio mejora al flexibilizar la cadena productiva, adaptándola a las exigencias del mercado, y promoviendo la reinversión a lo largo de la cadena de valor.
-                .col-md-4
+                .col-md-5.col-lg-4
                   img(src='@/assets/curso/temas/t5/slyder5.png', alt='')
               .row.justify-content-evenly
                 .col-md-6.mb-4.mb-md-0
                   h4 Más recursos y mejor distribuidos
                   p El aumento de negocios con proveedores locales incrementa la retención de recursos económicos en la región, mejorando la distribución de ingresos y beneficiando a un mayor número de personas.
-                .col-md-4
+                .col-md-5.col-lg-4
                   img(src='@/assets/curso/temas/t5/slyder6.png', alt='')
               .row.justify-content-evenly
                 .col-md-6.mb-4.mb-md-0
                   h4 Inversiones y generación de empleo
                   p El aumento de la producción impulsa inversiones en infraestructura y equipamiento, lo que a su vez genera nuevos empleos en la comunidad.
-                .col-md-4
+                .col-md-5.col-lg-4
                   img(src='@/assets/curso/temas/t5/slyder7.png', alt='')
     
 
@@ -138,35 +138,35 @@
     TabsC.color-acento-contenido.mb-5
       .bg8.py-4.py-md-5(titulo="Hotel Residencia")
         .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
+          .col-md-5.col-lg-4.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t5/tab1.png', alt='')
           .col-md-7
             h4 Hotel Residencia
             p Establecimiento que ofrece alojamiento permanente en apartamentos o cabañas, brindando servicios básicos y complementarios. Las tarifas se aplican de manera diaria y son especiales para estancias prolongadas (mínimo de 15 días), según el tipo de alojamiento y el número de ocupantes (MINEP, 2005).
       .bg8.py-4.py-md-5(titulo="Hostal")
         .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
+          .col-md-5.col-lg-4.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t5/tab2.png', alt='')
           .col-md-7
             h4 Hostal
             p Ubicados generalmente cerca de rutas de tránsito, estos establecimientos ofrecen habitaciones con baño y estacionamiento.
       .bg8.py-4.py-md-5(titulo="Camping")
         .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
+          .col-md-5.col-lg-4.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t5/tab3.png', alt='')
           .col-md-7
             h4 Camping
             p Espacio al aire libre acondicionado para acampar, ideal para disfrutar de actividades recreativas o educativas.
       .bg8.py-4.py-md-5(titulo="Pensión")
         .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
+          .col-md-5.col-lg-4.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t5/tab4.png', alt='')
           .col-md-7
             h4 Pensión
             p Ofrece alojamiento en habitaciones con baño privado o compartido, con posibilidad de incluir comidas en régimen completo o parcial (MINEP, 2005). 
       .bg8.py-4.py-md-5(titulo="Balneario o clínica de recuperación")
         .row.justify-content-center
-          .col-md-4.mb-4.mb-md-0
+          .col-md-5.col-lg-4.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t5/tab5.png', alt='')
           .col-md-7
             h4 Balneario o clínica de recuperación
@@ -234,8 +234,8 @@
       .col-auto.ps-0.texto
         h3.mb-0 Servicios de Información Turística
     
-    .row.mb-5
-      .col-lg-4(data-aos="fade-right")
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-md-6.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t5/img6.png', alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-4 Estos servicios están orientados a satisfacer las necesidades informativas de los visitantes, proporcionando datos actualizados y relevantes sobre actividades y destinos turísticos en todos los niveles (local, regional, nacional e internacional).
@@ -258,7 +258,7 @@
             img(src='@/assets/curso/temas/t5/img-fig9.png', alt='')
 
     .row.justify-content-center
-      .col-lg-4.col-md-6.col-10.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t5/img7.png', alt='')
       .col-lg-8(data-aos="fade-left")
         AcordionA.acord1(tipo="a" clase-tarjeta="tarjeta bg4")

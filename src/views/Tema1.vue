@@ -84,25 +84,25 @@
     p.mb-4 Cualquier intento de definir el turismo debe considerar la participación de los diversos grupos involucrados y afectados por esta actividad, ya que su inclusión es esencial para una comprensión completa del fenómeno turístico. En este sentido, se identifican cuatro perspectivas clave:
 
     .row.justify-content-center.mb-4(data-aos='fade-down')
-      .col-lg-3.col-md-6.mb-3
+      .col-lg-3.col-md-6.col-9.mb-3
         img(src='@/assets/curso/temas/t1/tarj1.png', alt='')
         .bg4.tarjeta-t1.text-center.border-b.p-4.pt-5
           .num
             span 1
           h4.mb-0 El turista  
-      .col-lg-3.col-md-6.mb-3
+      .col-lg-3.col-md-6.col-9.mb-3
         img(src='@/assets/curso/temas/t1/tarj2.png', alt='')
         .bg4.tarjeta-t1.text-center.border-b.p-4.pt-5
           .num
             span 2
           h4.mb-0 Las empresas que proveen bienes y servicios turísticos
-      .col-lg-3.col-md-6.mb-3
+      .col-lg-3.col-md-6.col-9.mb-3
         img(src='@/assets/curso/temas/t1/tarj3.png', alt='')
         .bg4.tarjeta-t1.text-center.border-b.p-4.pt-5
           .num
             span 3
           h4.mb-0 El gobierno de la comunidad o área receptora
-      .col-lg-3.col-md-6.mb-3
+      .col-lg-3.col-md-6.col-9.mb-3
         img(src='@/assets/curso/temas/t1/tarj4.png', alt='')
         .bg4.tarjeta-t1.text-center.border-b.p-4.pt-5
           .num
@@ -120,7 +120,7 @@
       h2 1.3  Clases de gestión turística
     
     .row.justify-content-center.align-items-center
-      .col-lg-5(data-aos="fade-right")
+      .col-lg-5.col-md-6.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img6.png', alt='')
       .col-lg-7(data-aos="fade-left")
         p La gestión turística es una actividad compleja que integra diversos aspectos sociales, políticos, antropológicos, económicos y tecnológicos. Todos estos elementos deben actuar de manera coordinada y colaborativa, superando cualquier interés particular. La gestión pública se centra en la implementación de estrategias políticas que aseguren el cumplimiento de normativas orientadas al desarrollo económico y social; sumado a esto, la participación del sector privado abarca la provisión de servicios esenciales para el turismo, como el alojamiento, transporte y otros servicios demandados por los turistas.
@@ -136,28 +136,28 @@
       .col-auto.ps-0.texto
         h3.mb-0 ¿Qué es gestión pública?
    
-    .row.mb-4
+    .row.justify-content-center.mb-4
       .col-lg-8(data-aos="fade-right")
         p.mb-4 La gestión pública se refiere a las actividades desarrolladas por los organismos oficiales para cumplir con los fines del Estado, esta gestión abarca la planificación, ejecución y control de las acciones dentro de las organizaciones, así como la obtención de la información necesaria para la toma de decisiones. Además, implica la organización y operación de los mecanismos necesarios para que dichas decisiones sean implementadas de manera eficiente.
         p El sector público se organiza en cuatro niveles:
         ol.lista-ol--cuadro.text-color.fa-ul
           li
-          .lista-ol--cuadro__vineta
-            span 1
-          | La administración central: que gestiona funciones como la seguridad social.
+            .lista-ol--cuadro__vineta
+              span 1
+            | La administración central: que gestiona funciones como la seguridad social.
           li
-          .lista-ol--cuadro__vineta
-            span 2
-          | La administración regional o autonómica: que ha asumido competencias en sanidad y educación.
+            .lista-ol--cuadro__vineta
+              span 2
+            | La administración regional o autonómica: que ha asumido competencias en sanidad y educación.
           li
-          .lista-ol--cuadro__vineta
-            span 3
-          | La administración local: la cual es la responsable de servicios cercanos a los ciudadanos.
+            .lista-ol--cuadro__vineta
+              span 3
+            | La administración local: la cual es la responsable de servicios cercanos a los ciudadanos.
           li
-          .lista-ol--cuadro__vineta
-            span 4
-          | El sector público empresarial: que produce bienes y servicios a través de empresas públicas.
-      .col-lg-4(data-aos="fade-right")
+            .lista-ol--cuadro__vineta
+              span 4
+            | El sector público empresarial: que produce bienes y servicios a través de empresas públicas.          
+      .col-lg-4.col-md-6.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img7.png', alt='')
     
     p.text-center En Colombia, el sector público se divide en:
@@ -194,7 +194,7 @@
         img(src='@/assets/curso/temas/t1/figura2.png', alt='')
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-md-6.col-10.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-4.col-md-6.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/img8.png', alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-4 La gestión pública debe enfocarse en lograr resultados eficaces en la reducción de la pobreza y en el mejoramiento de la calidad de vida, promoviendo un desarrollo integral y sostenible. Según la Constitución y la Ley, estos esfuerzos deben reflejarse en resultados concretos, alineados con los principios administrativos. El Departamento Nacional de Planeación de Colombia identifica tres momentos clave en esta gestión: planeación, ejecución y evaluación, garantizando así el ajuste continuo de políticas públicas para un mejor impacto.

@@ -49,7 +49,7 @@
         p.mb-4 Un destino es competitivo cuando es sostenible, es decir, cuando integra los tres pilares del turismo sostenible: económico, ambiental y sociocultural, generando beneficios en cada uno de estos ámbitos. Sin sostenibilidad, no puede haber competitividad. Por ello, es fundamental que el destino incorpore en su gestión los principios y normas establecidas en las diversas cartas y códigos internacionales.
         .bg1.p-4
           p.mb-0 Fortalecer la competitividad de un destino turístico implica preservar la calidad ambiental, proteger los recursos naturales utilizados para el turismo y mantener espacios como las playas en óptimas condiciones. Además, es necesario implementar medidas para evitar su deterioro, mejorar el entorno y la imagen urbana, elevar constantemente la calidad de los servicios y fortalecer la capacidad competitiva de las empresas turísticas.
-      .col-lg-4 
+      .col-lg-4.d-none.d-lg-block 
         img(src='@/assets/curso/temas/t3/img3.png', alt='')
     
     .row.bgc-2.align-items-center.p-4.mb-4(data-aos="fade-down")
