@@ -63,7 +63,7 @@
     .row(data-aos='fade')
       .col-lg-7.pe-lg-0
         .br-l.bg1.p-4.h-100.d-flex.align-items-center
-          p.mb-0 El fortalecimiento de la competitividad en un destino turístico requiere adoptar un enfoque competitivo en su gestión, lo que implica que el organismo local responsable de la actividad turística oriente sus esfuerzos hacia la competencia. Esto incluye mejorar su capacidad de gestión en marketing para lograr un mejor posicionamiento en los mercados. Además, el organismo local debe coordinar acciones con otras entidades responsables de servicios públicos para garantizar una mejora continua en los productos y servicios ofrecidos, consolidando así su estructura organizacional en función de los objetivos turísticos del destino.
+          p.mb-0 El fortalecimiento de la competitividad en un destino turístico requiere adoptar un enfoque competitivo en su gestión, lo que implica que el organismo local responsable de la actividad turística oriente sus esfuerzos hacia la competencia. Esto incluye mejorar su capacidad de gestión en #[em marketing] para lograr un mejor posicionamiento en los mercados. Además, el organismo local debe coordinar acciones con otras entidades responsables de servicios públicos para garantizar una mejora continua en los productos y servicios ofrecidos, consolidando así su estructura organizacional en función de los objetivos turísticos del destino.
       .col-lg-5.ps-lg-0.d-none.d-lg-block
         img(src='@/assets/curso/temas/t4/img2.png', alt='')
 

@@ -256,30 +256,22 @@ export default {
   referencias: [
     {
       referencia:
-        'Amaya Molinar, C. M., Conde Pérez, E. M., & Covarrubias Ramírez, R. (2008). La Competitividad Turística: Imperativo para Manzanillo, Colima.',
-      link: '',
+        'Conde Pérez, E. M., Covarrubias Ramírez, R., & Amaya Molinar, C. M. (2008). La competitividad turística: imperativo para Manzanillo, Colima. Teoría y Praxis, (5), 17–32.',
     },
     {
       referencia:
-        'Gámez, R. A. E. EL TURISMO COMO AGENTE TRANSFORMADOR DE SOCIEDADES.',
-      link: '',
+        'Aguiar López, J. G. (2012). Organización Comunitaria Para Un Turismo Emergente: “Sistematización de Experiencias”, Gestión turística. Valdivia: Universidad Austral de Chile, Instituto de Turismo. n. 17 (en.-jun. 2012), pages 37-54 Gestión turística.',
     },
     {
       referencia:
-        'Madrid, F. (2015). La sostenibilidad en la política turística mexicana. PASOS. Revista de Turismo y Patrimonio Cultural, 13(6), 1301-1313.',
-      link: '',
+        'Pérez de las Heras, M., Pérez de las Heras, M., & e-libro, Corp. (2004). Manual del turismo sostenible como conseguir un turismo social, económico y ambientalmente responsable. Madrid: Mundi-Prensa.',
     },
     {
       referencia:
-        'Domínguez-Vera, J. G., & Ruiz-Montoya, L. (2021). El manejo de proyectos ecoturísticos en el municipio de San Cristóbal de las Casas:¿ siguen la norma oficial mexicana 133?. Dimensiones turísticas, 5(9), 59-80.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ylatoma, C. C. (2018). Modelo de gestión turística municipal integrada y participativa, para el fortalecimiento de la oferta turística cultural. UCV-HACER. Revista de Investigación y Cultura, 7(3), 77-85.',
-      link: '',
+        'Carrera Burneo, P., & López, S. (2013). “Observatorio de Turismo” : Un Espacio de Análisis y Comunicación Como Contribución Para El Desarrollo Del Turismo En El Ecuador, Gestión turística. Valdivia: Universidad Austral de Chile, Instituto de Turismo. n. 19 (en.-jun. 2013), pages 9-24 Gestión turística',
     },
   ],
+
   creditos: [
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
@@ -301,7 +293,7 @@ export default {
       autores: [
         {
           nombre: 'Sandra Paola Morales Páez',
-          cargo: 'Evaluador instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

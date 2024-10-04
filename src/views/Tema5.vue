@@ -32,7 +32,7 @@
       .col-lg-4.col-md-6.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t5/img3.png', alt='')
       .col-lg-8(data-aos="fade-left")
-        p.mb-4 Los proveedores de servicios turísticos abarcan desde grandes grupos empresariales e instituciones estatales hasta particulares, ofreciendo una amplia gama de servicios para satisfacer las necesidades de turistas locales, nacionales e internacionales. Estos proveedores no solo se enfocan en la calidad de los servicios ofrecidos, sino que también implementan estrategias de marketing y sostenibilidad para mantenerse competitivos en los mercados, identificando oportunidades en diversos segmentos productivos y adaptándose a las demandas cambiantes del turismo.
+        p.mb-4 Los proveedores de servicios turísticos abarcan desde grandes grupos empresariales e instituciones estatales hasta particulares, ofreciendo una amplia gama de servicios para satisfacer las necesidades de turistas locales, nacionales e internacionales. Estos proveedores no solo se enfocan en la calidad de los servicios ofrecidos, sino que también implementan estrategias de #[em marketing] y sostenibilidad para mantenerse competitivos en los mercados, identificando oportunidades en diversos segmentos productivos y adaptándose a las demandas cambiantes del turismo.
         .bg1.p-4
           p.mb-0 Además, los proveedores de servicios turísticos y los países comparten la responsabilidad de promover el desarrollo equilibrado del sector, asegurando que sus servicios fomenten la inclusión social, económica y cultural. Para lograrlo, es crucial que los proveedores garanticen una adecuada respuesta a las expectativas de los turistas, ofreciendo servicios con una buena relación costo-beneficio. El éxito en este sector depende de una planificación efectiva que satisfaga tanto las necesidades de los turistas como las de la comunidad receptora, enfrentando desafíos como la diversificación de la oferta, la mejora de infraestructuras y la búsqueda de una demanda cualificada.
     
@@ -264,7 +264,7 @@
         AcordionA.acord1(tipo="a" clase-tarjeta="tarjeta bg4")
           .row.justify-content-center(titulo="Función asesora")
             .col-md-10
-              p.mb-0 se encarga de informar a los clientes sobre las características de los diferentes destinos y servicios turísticos disponibles. La incorporación de tecnologías de la información y comunicación (TIC) en las agencias de viajes mejora los tiempos de respuesta y facilita el acceso a sistemas globales de información turística.
+              p.mb-0 Se encarga de informar a los clientes sobre las características de los diferentes destinos y servicios turísticos disponibles. La incorporación de tecnologías de la información y comunicación (TIC) en las agencias de viajes mejora los tiempos de respuesta y facilita el acceso a sistemas globales de información turística.
           .row.justify-content-center(titulo="Función mediadora")
             .col-md-10
               p.mb-0 Su objetivo es negociar, gestionar e intermediar en la reserva y compra de los servicios turísticos solicitados por los clientes, actuando como un enlace entre ellos y los proveedores.

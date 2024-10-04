@@ -49,14 +49,14 @@
       h2 1.1  La gestión turística 
     
     .row.justify-content-center.align-items-end.mb-4
-      .col-lg-8.pe-lg-0(data-aos="fade-right")
-        p.mb-4 Es un proceso colaborativo entre el sector público y privado que busca el desarrollo y competitividad del turismo mediante la planificación, organización, dirección y control de los recursos turísticos. Según Arias (2008), citado por Arauz Beita (2010), esta gestión debe mantener un equilibrio entre los diferentes componentes del espacio turístico, asegurando una interacción armónica entre los atractivos naturales y culturales y la infraestructura necesaria para el turismo.
-        .bg2.p-4
-          p.mb-0 El espacio turístico está definido por la presencia de atractivos y servicios que facilitan la actividad turística, estos servicios pueden estar dispersos o concentrados y varían desde pequeñas unidades turísticas hasta grandes centros turísticos que ofrecen todas las comodidades necesarias para los visitantes. El correcto funcionamiento de este espacio requiere una superestructura administrativa que coordine y regule las operaciones del sector, asegurando la sostenibilidad y eficiencia en la prestación de servicios turísticos.
-      .col-lg-4.d-none.d-lg-block.ps-lg-0(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-right")
+        p Es un proceso colaborativo entre el sector público y privado que busca el desarrollo y competitividad del turismo mediante la planificación, organización, dirección y control de los recursos turísticos. Según Arias (2008), citado por Arauz Beita (2010), esta gestión debe mantener un equilibrio entre los diferentes componentes del espacio turístico, asegurando una interacción armónica entre los atractivos naturales y culturales y la infraestructura necesaria para el turismo.
+        p El espacio turístico está definido por la presencia de atractivos y servicios que facilitan la actividad turística, estos servicios pueden estar dispersos o concentrados y varían desde pequeñas unidades turísticas hasta grandes centros turísticos que ofrecen todas las comodidades necesarias para los visitantes. El correcto funcionamiento de este espacio requiere una superestructura administrativa que coordine y regule las operaciones del sector, asegurando la sostenibilidad y eficiencia en la prestación de servicios turísticos.
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/img3.png', alt='')
 
-    p La superestructura turística es responsable de la gestión integral de la oferta de servicios, abarcando la planificación, coordinación, organización, control, promoción y mercadeo de los recursos turísticos, tanto de la infraestructura como de los atractivos. Este cuerpo coordinador está conformado por instituciones públicas, el sector privado y organismos mixtos, cuyo propósito es garantizar el desarrollo sostenible del turismo y asegurar que todas las actividades se realicen de manera eficiente y equilibrada, en beneficio del sector y las comunidades involucradas.
+    .cajon.color-acento-contenido.p-4.mb-4
+      p.mb-0 La superestructura turística es responsable de la gestión integral de la oferta de servicios, abarcando la planificación, coordinación, organización, control, promoción y mercadeo de los recursos turísticos, tanto de la infraestructura como de los atractivos. Este cuerpo coordinador está conformado por instituciones públicas, el sector privado y organismos mixtos, cuyo propósito es garantizar el desarrollo sostenible del turismo y asegurar que todas las actividades se realicen de manera eficiente y equilibrada, en beneficio del sector y las comunidades involucradas.
     p.mb-4 Los organismos del Estado se pueden clasificar en tres grupos:
 
     .row.justify-content-center.mb-4

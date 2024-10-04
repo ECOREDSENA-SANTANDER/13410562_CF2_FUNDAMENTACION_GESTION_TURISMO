@@ -1,24 +1,29 @@
 .banner-principal-decorativo
   &-1
-    animation: opacity1 3.5s ease-in-out infinite alternate
+    animation: cloud 4.5s linear infinite 
     position: absolute
-    top: 28%
+    top: 28.5%
     right: 82%
   &-2
-    animation: opacity1 2.8s ease-in-out infinite alternate
+    animation: cloud 4.8s linear infinite 
     position: absolute
     top: 2%
     right: 55%
   &-3
-    animation: opacity1 3.5s ease-in-out infinite alternate
+    animation: cloud 4.5s linear infinite 
     position: absolute
     top: 38%
-    right: 22%
-@keyframes opacity1
+    right: 24%
+@keyframes cloud
   0%
-    opacity: 0.5  
-  100%
+    opacity: 0
+    transform: translateX(0px)  
+  80%
     opacity: 1
+    transform: translateX(28px)  
+  100%
+    opacity: 0
+    transform: translateX(30px)
 
 
 .banner-interno__fondo    

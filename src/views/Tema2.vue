@@ -123,7 +123,7 @@
             .text.p-lg-4.p-3
               .row.text-center.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
                 h4.mt-4.mb-3 b. Factores intangibles
-                p Incluyen la calidad integral del destino, que abarca tanto la infraestructura como los servicios y la sostenibilidad ambiental. Además, la innovación en el desarrollo de atracciones y la actitud competitiva del destino son claves para mantener su relevancia en el mercado, lo que requiere una gestión eficiente y coordinada, basada en un plan integral de marketing.
+                p Incluyen la calidad integral del destino, que abarca tanto la infraestructura como los servicios y la sostenibilidad ambiental. Además, la innovación en el desarrollo de atracciones y la actitud competitiva del destino son claves para mantener su relevancia en el mercado, lo que requiere una gestión eficiente y coordinada, basada en un plan integral de #[em marketing].
 
 
     .tit-tercer.row.align-items-center.mb-4(data-aos="fade-right")
@@ -220,7 +220,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0  Concepto desarrollado por Barry Nalebuff y Adam Brandenburger en 1996, es un enfoque estratégico que fusiona la competencia y la cooperación entre empresas. En lugar de enfrentarse únicamente como rivales, las empresas colaboran en áreas donde pueden generar beneficios mutuos, mientras siguen compitiendo en otros aspectos. Este modelo es especialmente relevante en grandes negocios, donde las empresas pueden complementarse al compartir recursos, conocimientos y capacidades. Al hacerlo, las organizaciones no solo fortalecen su posición individual en el mercado, sino que también crean sinergias que les otorgan ventajas competitivas frente a otros actores del mercado que no participan en este tipo de colaboración.
     
-    p.mb-4 La coopetencia permite un enfoque más dinámico y flexible, donde el aprendizaje conjunto y el intercambio de know-how enriquecen la capacidad de innovación y adaptación de las empresas involucradas, potenciando su crecimiento en un entorno cada vez más competitivo.
+    p.mb-4 La coopetencia permite un enfoque más dinámico y flexible, donde el aprendizaje conjunto y el intercambio de #[em know-how] enriquecen la capacidad de innovación y adaptación de las empresas involucradas, potenciando su crecimiento en un entorno cada vez más competitivo.
     
     .row.bgc-1.align-items-center.p-4.py-4(data-aos="fade-down")
       .col-lg-12.col-12.px-lg-5.px-4
