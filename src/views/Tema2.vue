@@ -157,13 +157,13 @@
           .col-lg-8  
             SlyderF(columnas="col-md-6")
               .tarjeta.bg4.p-4.p-lg-5
-                p.text-center.mb-0 #[b Competencia directa:] Las empresas que operan dentro del mismo sector y apuntan a satisfacer las necesidades de un grupo específico de clientes desarrollan estrategias competitivas enfocadas en este mercado objetivo.
+                p.text-center.mb-0 #[b Competencia directa:] las empresas que operan dentro del mismo sector y apuntan a satisfacer las necesidades de un grupo específico de clientes desarrollan estrategias competitivas enfocadas en este mercado objetivo.
               .tarjeta.bg4.p-4.p-lg-5
-                p.text-center.mb-0 #[b Competencia indirecta:] Involucra a todas las empresas presentes en el mercado que buscan satisfacer las necesidades de los clientes mediante enfoques alternativos o distintos a los empleados comúnmente en ese sector.
+                p.text-center.mb-0 #[b Competencia indirecta:] involucra a todas las empresas presentes en el mercado que buscan satisfacer las necesidades de los clientes mediante enfoques alternativos o distintos a los empleados comúnmente en ese sector.
               .tarjeta.bg4.p-4.p-lg-5
-                p.text-center.mb-0 #[b Competidores potenciales:] Son nuevos actores que ingresan al mercado con estrategias agresivas para captar clientes y posicionarse.
+                p.text-center.mb-0 #[b Competidores potenciales:] son nuevos actores que ingresan al mercado con estrategias agresivas para captar clientes y posicionarse.
               .tarjeta.bg4.p-4.p-lg-5
-                p.text-center.mb-0 #[b Productos sustitutos:] Son productos que pueden reemplazar a otros por sus características similares, compitiendo en calidad y precio. 
+                p.text-center.mb-0 #[b Productos sustitutos:] son productos que pueden reemplazar a otros por sus características similares, compitiendo en calidad y precio. 
     
     .tit-tercer.row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.pe-0
