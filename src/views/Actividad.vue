@@ -111,6 +111,66 @@ export default {
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
+        {
+          id: 7,
+          texto:
+            'La gestión turística sostenible implica un equilibrio entre los aspectos económicos, sociales y ambientales sin comprometer el bienestar de futuras generaciones.',
+          imagen: require('@/assets/actividad/3.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene claros los conceptos de competitividad y sobre la gestión turística.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            'La competitividad de un destino turístico depende únicamente de sus recursos naturales y culturales, sin necesidad de una gestión eficaz.',
+          imagen: require('@/assets/actividad/4.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene claros los conceptos de competitividad y sobre la gestión turística.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            'El sector privado en el turismo no juega un papel fundamental en la provisión de servicios esenciales como alojamiento y transporte.',
+          imagen: require('@/assets/actividad/1.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene claros los conceptos de competitividad y sobre la gestión turística.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            'El modelo de competitividad de Porter sugiere que un país puede mejorar su prosperidad mediante la organización de sus políticas y leyes enfocadas en la productividad.',
+          imagen: require('@/assets/actividad/2.png'),
+          barajarRespuestas: false,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene claros los conceptos de competitividad y sobre la gestión turística.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
       ],
       mensaje_final_aprobado:
         '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
