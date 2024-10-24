@@ -56,7 +56,7 @@
       .col-auto.pe-0
         img.pe-0(src='@/assets/curso/temas/t1/tit-tercer.svg', alt='') 
       .col-auto.ps-0.texto
-        h3.mb-0 Relación gobernanza y gestión
+        h3.mb-0 Relación: gobernanza y gestión
 
     p.mb-4 En los destinos turísticos coexisten diversos actores con percepciones e intereses distintos sobre la actividad turística, lo que genera relaciones de poder que influyen en la apropiación y disposición del espacio material y simbólico. Estos actores, a través de sus interacciones, se convierten en sujetos activos que construyen y organizan el territorio. La participación y cooperación de los agentes en el destino ha llevado al desarrollo del concepto de gobernanza, que implica la creación de redes de cooperación horizontal entre los actores del turismo, facilitando una mejor toma de decisiones y una planificación integral que considera las diversas dimensiones del fenómeno turístico.    
 

@@ -169,7 +169,7 @@
             img.mb-2(src='@/assets/curso/temas/t1/icono1.svg', alt='')
           .col-9
             h3.mb-0.text-conect Subsector financiero
-        p.mb-0 Abarca los entes que cumplen actividades iguales o similares a los demás intermediarios financieros del sistema, tales como: bancos, corporaciones y entidades de financiamiento de la industria, la vivienda la agricultura, etc.
+        p.mb-0 Abarca los entes que cumplen actividades iguales o similares a los demás intermediarios financieros del sistema, tales como: bancos, corporaciones y entidades de financiamiento de la industria, la vivienda, la agricultura, etc.
       .col-md.tarjeta.bg4.p-4.p-lg-5
         .row.align-items-end.mb-4
           .col-3.col-lg-2
@@ -279,7 +279,7 @@
             img.mb-2(src='@/assets/curso/temas/t1/icono4.svg', alt='')
           .col-9
             h3.mb-0.text-conect Artículo 286
-        p.mb-4 La Constitución Política en su artículo 286 señala que “las entidades territoriales son los departamentos, los distritos, los municipios y los territorios indígenas”. Actualmente se cuenta con las siguientes entidades territoriales:
+        p.mb-4 La Constitución Política en su artículo 286 señala que “las entidades territoriales son los departamentos, los distritos, los municipios y los territorios indígenas”. Actualmente, se cuenta con las siguientes entidades territoriales:
         ul.lista-ul--color.fa-ul.color-new2.mb-0
           li
             i.fas.fa-compass

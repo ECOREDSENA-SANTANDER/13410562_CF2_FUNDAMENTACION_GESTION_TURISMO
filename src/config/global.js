@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Competitividad y gestión turística',
     descripcionCurso:
-      'La competitividad turística se refiere a la capacidad de un destino para atraer y satisfacer a los turistas en comparación con otros destinos, ofreciendo una experiencia de calidad, atractiva y diferenciada. Por su parte, la gestión turística abarca la planificación, organización y administración de los recursos turísticos para maximizar su aprovechamiento, garantizar su sostenibilidad a largo plazo y mejorar la experiencia del turista',
+      'La competitividad turística se refiere a la capacidad de un destino para atraer y satisfacer a los turistas en comparación con otros destinos, ofreciendo una experiencia de calidad, atractiva y diferenciada. Por su parte, la gestión turística abarca la planificación, organización y administración de los recursos turísticos para maximizar su aprovechamiento, garantizar su sostenibilidad a largo plazo y mejorar la experiencia del turista.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -46,7 +46,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Actores en la gestión del turismo',
+            titulo: 'Los actores en la gestión del turismo',
             hash: 't_1_2',
           },
           {
@@ -308,7 +308,7 @@ export default {
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrolladora <em>fullstack</em>',
+          cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
