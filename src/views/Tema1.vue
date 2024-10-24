@@ -79,7 +79,7 @@
 
     Separador
     #t_1_2.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.2  Actores en la gestión del turismo
+      h2 1.2 Los actores en la gestión del turismo
 
     p.mb-4 Cualquier intento de definir el turismo debe considerar la participación de los diversos grupos involucrados y afectados por esta actividad, ya que su inclusión es esencial para una comprensión completa del fenómeno turístico. En este sentido, se identifican cuatro perspectivas clave:
 

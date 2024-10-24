@@ -172,7 +172,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF2_13410562_DU.pdf',
+        download: 'downloads/CF2_13410562_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -205,10 +205,9 @@ export default {
     {
       tema: '2.1. Competitividad en el turismo.',
       referencia:
-        'Chávez, O. R. (2008). Turismo: factor de desarrollo y competitividad en México. Centro.',
+        'Chávez, O. R. (2008). Turismo: factor de desarrollo y competitividad en México.',
       tipo: 'PDF',
-      link:
-        'https://www.academia.edu/download/46102707/TURISMO_factor_desarrollo_competitividad_Docto46_1.pdf',
+      descarga: 'downloads/TURISMO_factor_desarrollo_competitividad.pdf',
     },
   ],
   glosario: [
