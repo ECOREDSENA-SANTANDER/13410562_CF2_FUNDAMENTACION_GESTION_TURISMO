@@ -205,9 +205,9 @@ export default {
     {
       tema: '2.1. Competitividad en el turismo.',
       referencia:
-        'Chávez, O. R. (2008). Turismo: factor de desarrollo y competitividad en México.',
+        'Gambarota, D. M., & Lorda, M. A. (2017). El turismo como estrategia de desarrollo local. Revista geográfica venezolana, 58(2), 346-359.',
       tipo: 'PDF',
-      descarga: 'downloads/TURISMO_factor_desarrollo_competitividad.pdf',
+      link: 'https://www.redalyc.org/pdf/3477/347753793006.pdf',
     },
   ],
   glosario: [
